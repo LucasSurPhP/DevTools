@@ -2,7 +2,7 @@
 projects:
   PocketMine-DevTools:
     path: ""
-    stub: stub.php
+    stub: src/DevTools/ConsoleScript.php
     icon: devtools.png
     compressBuilds: false
 ...
