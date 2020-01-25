@@ -1,0 +1,13 @@
+name: test actions
+on:
+  - push
+jobs:
+  build:
+    name: Build
+    runs-on:
+      - ubuntu-latest
+      - macos-latest
+      - windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-pmmp/setup@master
